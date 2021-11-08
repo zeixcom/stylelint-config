@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-zeix",
+  "version": "1.0.0",
+  "description": "Zeix shareable config for Stylelint",
+  "keywords": [
+    "stylelint",
+    "config",
+    "zeix"
+  ],
+  "repository": "stylelint/stylelint-config-standard",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "stylelint": "^14.0.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
+  }
+}

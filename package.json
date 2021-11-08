@@ -1,6 +1,6 @@
 {
   "name": "@zeix/stylelint-config-zeix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zeix shareable config for Stylelint",
   "keywords": [
     "stylelint",

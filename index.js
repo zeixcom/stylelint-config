@@ -1,12 +1,8 @@
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-config-prettier"],
-  plugins: ["stylelint-scss", "stylelint-order"],
-  customSyntax: "postcss-scss",
+  extends: ["stylelint-config-recommended-scss", "stylelint-config-prettier"],
+  plugins: ["stylelint-order"],
   rules: {
-    "alpha-value-notation": "number",
-    "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": true,
-    "declaration-empty-line-before": null,
+    "scss/operator-no-newline-after": null,
     "order/order": [
       [
         {

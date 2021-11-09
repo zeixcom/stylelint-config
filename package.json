@@ -1,6 +1,6 @@
 {
-  "name": "@zeix/stylelint-config-zeix",
-  "version": "1.0.1",
+  "name": "@zeix/stylelint-config",
+  "version": "1.0.0",
   "description": "Zeix shareable config for Stylelint",
   "keywords": [
     "stylelint",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeixcom/stylelint-config-zeix.git"
+    "url": "git+https://github.com/zeixcom/stylelint-config.git"
   },
   "license": "MIT",
   "main": "index.js",

@@ -5,12 +5,13 @@ module.exports = {
     "scss/operator-no-newline-after": null,
     "order/order": [
       [
+        "dollar-variables",
+        "custom-properties",
         {
           type: "at-rule",
           name: "include",
           hasBlock: false,
         },
-        "custom-properties",
         "declarations",
         "rules",
         {

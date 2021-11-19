@@ -22,3 +22,18 @@ module.exports = {
 ```
 
 [Documentation for the extends option](https://stylelint.io/user-guide/configure/#extends)
+
+## Extending the config
+
+Simply add a "rules" key to your config, then add your overrides and additions there.
+
+For example, to turn off the scss/at-if-no-null rule:
+
+```js
+module.exports = {
+  extends: ["@zeix/stylelint-config"],
+  rules: {
+    "scss/at-if-no-null": null,
+  },
+};
+```

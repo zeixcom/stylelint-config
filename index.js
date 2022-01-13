@@ -2,7 +2,15 @@ module.exports = {
   extends: ["stylelint-config-standard-scss", "stylelint-config-prettier"],
   plugins: ["stylelint-order"],
   rules: {
+    "alpha-value-notation": null,
+    "declaration-block-no-redundant-longhand-properties": [
+      true,
+      {
+        ignoreShorthands: ["/grid/"],
+      },
+    ],
     "scss/operator-no-newline-after": null,
+    "scss/at-rule-conditional-no-parentheses": null,
     "order/order": [
       [
         "dollar-variables",
@@ -175,13 +183,13 @@ module.exports = {
         "list-style-image",
 
         "font",
+        "font-family",
+        "font-size",
         "font-weight",
         "font-style",
         "font-variant",
         "font-size-adjust",
         "font-stretch",
-        "font-size",
-        "font-family",
         "src",
         "line-height",
         "letter-spacing",

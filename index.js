@@ -11,6 +11,7 @@ module.exports = {
     ],
     "scss/operator-no-newline-after": null,
     "scss/at-rule-conditional-no-parentheses": null,
+    "scss/no-global-function-names": null,
     "order/order": [
       [
         "dollar-variables",

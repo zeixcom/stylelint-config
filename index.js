@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["stylelint-config-recommended-scss", "stylelint-config-prettier"],
+  extends: ["stylelint-config-standard-scss", "stylelint-config-prettier"],
   plugins: ["stylelint-order"],
   rules: {
     "scss/operator-no-newline-after": null,

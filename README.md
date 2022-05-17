@@ -2,7 +2,7 @@
 
 Zeix Stylelint config optimized for SCSS and Prettier.
 
-- extends: [`stylelint-config-recommended-scss`](https://github.com/stylelint-scss/stylelint-config-recommended-scss), [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier)
+- extends: [`stylelint-config-standard-scss`](https://github.com/stylelint-scss/stylelint-config-standard-scss), [`stylelint-config-prettier`](https://github.com/prettier/stylelint-config-prettier)
 - plugins: [`stylelint-order`](https://github.com/hudochenkov/stylelint-order)
 
 To see the rules that this config uses, please read the [config itself](https://github.com/zeixcom/stylelint-config/blob/master/index.js).

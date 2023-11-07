@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeixcom/stylelint-config.git"
+    "url": "git+https://github.com/zeixcom/stylelint-config/tree/feature/update-2023"
   },
   "license": "MIT",
   "main": "index.js",

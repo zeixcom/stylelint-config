@@ -22,6 +22,6 @@
     "stylelint-order": "^5.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.8.2"
+    "stylelint": "^15.11.0"
   }
 }
